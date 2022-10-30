@@ -1,0 +1,54 @@
+
+body{
+  margin: 0%;
+  text-align: center;
+}
+.tables {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  margin-top: 0%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 85px;
+}
+.ProfilePicture{
+  border-radius: 2%;
+}
+
+.top-container{
+  background-color: darkslategrey; 
+  position:  relative;
+  padding-top: 85px;
+}
+
+.middle-container{
+}
+
+footer{
+  position: absolute;
+  bottom:0;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pro{
+  text-decoration: underline; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 350px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
