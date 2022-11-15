@@ -2,81 +2,127 @@
 <Html>
   <Head>
     <meta charset="uft-8">
-    <title>Alexander Johansen</title>
+    <title>Alexander Website</title>
+<!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!--document links-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="pictures/logo1.ico?v=2">
+<!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+<!--Fonts Awesome-->
+    <script src="https://kit.fontawesome.com/bdcf4715c1.js" crossorigin="anonymous"></script>
 
 
   </Head>
   <body>
-    <div class=" top-container">
+<!--Navigations bar-->
+ <div class="fixed-top">
+    <nav class="navbar navbar-expand-md" style="background-color: #66bfbf;">
+      <a class="navbar-brand" href="#scrollspyHeading5">Alexander's website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Collapsetobbler1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Collapsetobbler1">
+          <ul class="navbar-nav ms-auto">
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading3">Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Contact Me</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+</div>
+<!-- Navbar end -->
+
+<!--Main headder site code-->
+    <div id="scrollspyHeading5" class=" top-container">
       <img class="top-cloud" src="pictures/cloud.png" alt="Cloud-img">
       <H1>Hi, I'm Alex</H1>
-      <p>A <span class="pro">pro</span>grammer.</p>
+      <h2>A <span class="pro">pro</span>grammer.</h2>
       <img class="bottom-cloud" src="pictures/cloud.png" alt="Cloud-img">
       <img src="pictures/mountain.png" alt="Mountian-img">
     </div>
-    <div class="middle-container">
+
+  <!-- About me and introduction -->
+    <div id="scrollspyHeading2" class="middle-container">
       <div class="profile">
         <img class="ProfilePicture" src="pictures/alex.png" alt="Picture of me"
         width="300">
 
         <h2>Hello.</h2>
-        <p>I am Alexander, currently a student and an athlete in curling.</p>
-        <p>I am son of two engineers and brother to a medical student</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
+        <p class="intro-text">I am Alexander, currently a student and an athlete in curling. I am the son of two engineers and brother to a medical student</p>
+        </div>
+<!-- Skills page -->
+<hr >
+
+      <div  id="scrollspyHeading3" class="skills">
+        <h2 class="MySkills">My Skills.</h2>
         <div class="skill-row">
+          <iframe src="https://giphy.com/embed/IdyAQJVN2kVPNUrojM" frameBorder="0" class="giphy-embed"></iframe>
+          
           <h3>Skills</h3>
+          <p>I am generally a fast learner and I like to learn new things as long as it is rellevant to what I'll be doing.</p>
+
           <table class="tables">
           <tr>
             <td>Python coding</td>
-            <td>⭐⭐⭐</td>
+            <td class="stars">⭐⭐⭐⭐</td>
            </tr>
            <tr>
             <td>HTML</td>
-            <td>⭐⭐⭐</td>
+            <td class="stars">⭐⭐⭐⭐</td>
            </tr>
            <tr>
             <td>CSS</td>
-            <td>⭐⭐⭐</td>
+            <td class="stars">⭐⭐⭐</td>
            </tr>
            <tr>
             <td>Graphic design</td>
-            <td>⭐⭐⭐</td>
+            <td class="stars">⭐⭐⭐</td>
            </tr>
         </table>
         </div>
         <div class="skill-row">
           <img class="" src="" alt="">
+          
           <h3>More details</h3>
-          <p>I am generally a fast learner and I like to learn new things as long as it is rellevant to what I'll be doing</p>
+          <p>I very much like spending time on my computer, and gaming with my friends or alone. I mostly play games and watch youtube for nowadays.</p>
         </div>
       </div>
-      <hr>
+
+<!-- Horisntal rule contact me -->
+      <hr id="scrollspyHeading4">
+
+<!-- Contact -->
       <div class="contact-me">
         <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-        <a class="btn" href="mailto:uniquetitanv@gmail.com">CONTACT ME</a>
-        <a href="html/contact.html">Contact Me Form (currently not fully working)</a>
+        <h3>Maybe we can work something out</h3>
+        <p class="contact-message">I can be found on most places by the name of UniqueTitanV.</p>
+        <p class="contact-message">But please use this link to mail me directly</p>
+        <a class="btn" href="mailto:uniquetitanv+udemywebsite@gmail.com"><i class="fa-regular fa-envelope fa-xl"></i>   CONTACT ME</a>
       </div>
     </div>
-    
-    
+
+<!-- Footer links -->
+    <div class="bottom-container">
     <footer>
-      <a class="footer-link" href="https://www.linkedin.com/in/alexander-johansen-15157722a/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/UniqueTitanV">Twitter</a>
-      <a class="footer-link" href="https://github.com/UniqueTitanV">GitHub</a>
-      <p>© 2022 Alexander Johansen.</p>
+      <a class="footer-link" href="https://github.com/UniqueTitanV"><i class="fa-brands fa-github fa-xl"></i>   GitHub</a>
+      <a class="footer-link" href="https://www.facebook.com/alexander.hewittjohansen/"><i class="fa-brands fa-facebook fa-xl"></i>   Facebook</a>
+      <a class="footer-link" href="https://twitter.com/UniqueTitanV"><i class="fa-brands fa-twitter fa-xl"></i>   Twitter</a>
+      <a class="fotter-link" href="https://discordapp.com/users/501745515390697482"><i class="fa-brands fa-discord fa-xl"></i>   Discord</a>
+      <p class="copyright-text">© 2022 Alexander Johansen.</p>
+
     </footer>
+  </div>
     
-
-
   </body>
 </Html>
