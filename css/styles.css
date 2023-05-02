@@ -60,6 +60,19 @@ a:hover{
   color: #ffffff;
 }
 
+/*Navbar*/
+.navbar-nav .nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+.navbar-brand{
+  font-weight: 500;
+}
+
 /* Main Upper Part */
 
 li{
