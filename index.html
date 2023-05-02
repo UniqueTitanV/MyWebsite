@@ -2,9 +2,14 @@
 <Html>
   <Head>
     <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alexander Website</title>
 <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" integrity="sha384-rKr7YKjweD+HbV8nBw2fa7VpsJHnNSID7W8Gv5SVkYRzR96f2QqdW8xw5dZb5Pe5" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 <!--document links-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="pictures/logo1.ico?v=2">
@@ -16,37 +21,51 @@
     <script src="https://kit.fontawesome.com/bdcf4715c1.js" crossorigin="anonymous"></script>
 
 
+
   </Head>
   <body>
 <!--Navigations bar-->
- <div class="fixed-top">
-    <nav class="navbar navbar-expand-md" style="background-color: #66bfbf;">
-      <a class="navbar-brand" href="#scrollspyHeading5">Alexander's website</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Collapsetobbler1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="Collapsetobbler1">
-          <ul class="navbar-nav ms-auto">
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #66bfbf;">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="#">Alexander Johansen</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#scrollspyHeading1"><i class="fa-solid fa-house"></i>  Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2"><i class="fa-solid fa-address-card"></i>  About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading3"><i class="fa-solid fa-star"></i>  My skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading4"><i class="fa-solid fa-envelope"></i>  Contact me</a>
+        </li>
 
-              <li class="nav-item">
-                  <a class="nav-link" href="#scrollspyHeading2"><i class="fa-regular fa-address-card"></i>  About Me</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#scrollspyHeading3"><i class="fa-regular fa-star"></i>  Achievements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading4"><i class="fa-regular fa-envelope"></i>  Contact Me</a>
-            </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-gamepad fa-lg"></i>  My Games
+          </a>
+          <ul class="dropdown-menu" style="background-color: #66bfbf;">
+            <li><a class="dropdown-item" href="https://uniquetitanv.github.io/The-Simon-Game/" target="_blank">Simon Game</a></li>
+            <li><a class="dropdown-item" href="https://uniquetitanv.github.io/TheDiceGame/" target="_blank">Dice Game</a></li>
+            <li><a class="dropdown-item" href="https://uniquetitanv.github.io/Drum-Kit-game/" target="_blank">Drum kit</a></li>
           </ul>
-      </div>
-  </nav>
-</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!-- Navbar end -->
 
 <!--Main headder site code-->
-    <div id="scrollspyHeading5" class=" top-container">
+    <div id="scrollspyHeading1" class=" top-container">
       <img class="top-cloud" src="pictures/cloud.png" alt="Cloud-img">
-      <H1>Hi, I'm Alex</H1>
+      <H1>Hi, I'm Alexander</H1>
       <h2>A <span class="pro">pro</span>grammer.</h2>
       <img class="bottom-cloud" src="pictures/cloud.png" alt="Cloud-img">
       <img src="pictures/mountain.png" alt="Mountian-img">
@@ -59,7 +78,7 @@
         width="300">
 
         <h2>Hello.</h2>
-        <p class="intro-text">I am Alexander, currently a student and an athlete in curling. I am the son of two engineers and brother to a medical student</p>
+        <p class="intro-text">I am Alexander Johansen, currently a highschool student learning programming and an athlete in curling. I am the son of two engineers and brother to a medical student</p>
         </div>
 <!-- Skills page -->
 <hr >
@@ -70,13 +89,8 @@
           <iframe src="https://giphy.com/embed/IdyAQJVN2kVPNUrojM" frameBorder="0" class="giphy-embed"></iframe>
           
           <h3 class="Skillslower">Skills</h3>
-          <p>I am generally a fast learner and I like to learn new things as long as it is relevant to what I'll be doing.</p>
-          <p>I don't like defining me as perfect in anything. There is always room for improvement</p>
+          <p>I am generally a fast learner and I like to learn new things as long as it is relevant to what I'll be doing. I have gone thru most of the common programming languages like:</p>
           <table class="tables">
-          <tr>
-            <td>Python coding</td>
-            <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid  fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></td>
-           </tr>
            <tr>
             <td>HTML</td>
             <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></td>
@@ -86,6 +100,14 @@
             <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid  fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></td>
            </tr>
            <tr>
+            <td>Python coding</td>
+            <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid  fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></td>
+           </tr>
+           <tr>
+            <td>JavaScript</td>
+            <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid  fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></td>
+           </tr>
+           <tr>
             <td>Graphic design</td>
             <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></td>
            </tr>
@@ -93,13 +115,15 @@
             <td>Video recording</td>
             <td class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></td>
            </tr>
+           
         </table>
         </div>
+        <p></p>
         <div class="skill-row">
           <img class="" src="" alt="">
           
           <h3 class="ExtraBlue">More details</h3>
-          <p>I very much like spending time on my computer, and gaming with my friends or alone. I mostly play games and watch youtube for nowadays. I did some video recording with Norcup and their finale in<a class="ExtraBlue" href="https://www.twitch.tv/videos/1607482363">Super Smash bros</a>and<a class="ExtraBlue" href="https://www.twitch.tv/videos/1607479684">Rocket League.</a></p> 
+          <p>I never see myself as the best and I always seek improvement where ever that might be. I love gaming either with my friends or alone. I did some video recording with Norcup E-Sports Competition and their finale in<a class="ExtraBlue" href="https://www.twitch.tv/videos/1607482363">Super Smash bros</a>and<a class="ExtraBlue" href="https://www.twitch.tv/videos/1607479684">Rocket League.</a></p> 
         </div>
       </div>
 
@@ -119,10 +143,17 @@
 <!-- Footer links -->
     <div class="bottom-container">
     <footer>
-      <a class="footer-link" href="https://github.com/UniqueTitanV"><i class="fa-brands fa-github fa-xl"></i>   GitHub</a>
+      <a class="footer-link" href="https://github.com/UniqueTitanV" target="_blank"><i class="fa-brands fa-github fa-xl"></i>   GitHub</a>
+      <a class="footer-link" href="#scrollspyHeading1"> To The Top <i class="fa-solid fa-arrow-up fa-lg"></i> </a>
       <p class="copyright-text">© 2022-23 Alexander Johansen.</p>
     </footer>
   </div>
     
+
+<!-- JavaScript Link -->
+  <script src="JavaScript/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
   </body>
 </Html>
+
