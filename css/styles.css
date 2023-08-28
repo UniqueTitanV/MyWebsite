@@ -59,8 +59,14 @@ a{
 a:hover{ 
   color: #ffffff;
 }
-
 /*Navbar*/
+#ThickAlex{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
 .navbar-nav .nav-link {
   color: black;
   font-weight: 500;
@@ -211,6 +217,10 @@ li{
   background-image: -o-linear-gradient(top, #11999e, #538f8f);
   background-image: linear-gradient(to bottom, #11999e, #538f8f);
   text-decoration: none;
+}
+
+.MailBackup{
+  padding-top: 10px;
 }
 
 .bottom-container{
